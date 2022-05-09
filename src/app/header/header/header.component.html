@@ -1,0 +1,50 @@
+
+<div class="row" id="first">
+    <div class="col-md-1"> Home</div>
+    <div class="col-md-1"> About </div>
+    <div class="col-md-1"> Product</div>
+    <div class="col-md-1"> Service</div>
+    <div class="col-md-1"> Gallery</div>
+    <div class="col-md-1"> Contact</div>
+    <div class="col-md-1"> Review </div>
+    <div class="col-md-1"> Log in </div>
+</div>
+<div class="row">
+<div class="col-3" style="margin-top: 10px;">
+    <div class="raw-2"><button routerLink="body">Profile</button></div>
+    <div class="raw-2"><button routerLink="footer">  Introduction</button></div>
+    <div class="raw-2"><button routerLink="left-nav-bar"> Abilities</button>  </div>
+    <div class="raw-2"><button routerLink="right-nav-bar">Experiences</button>  </div>
+    <div class="raw-2"><button routerLink="left-navigation-bar"> Contact</button>  </div>
+    <div class="raw-2"><button routerLink="right-nav-bar"> Features</button>  </div>
+</div>
+
+<div class="col-6" style="margin-top: 30px;">
+    <router-outlet></router-outlet>
+</div>
+
+<div class="col-3" style="margin-top: 10px;">
+    <img [src]="myimage" alt="" style="width:500px ; height: 450px;">
+</div>
+
+</div>
+
+<div class="row" id="second">
+           <div class="col-2"> <h5>Company Name</h5>
+        <p>Here are some information about our company about 
+            quality of products and details.
+        </p></div>
+        <div class="col-2"><h5>Product</h5>
+        <h6>Ben & Jerry's</h6>
+        <h6>Kwality Walls</h6>
+        <h6>Haagen-Dazs</h6>
+        <h6>Baskin-Robbins</h6></div>
+        <div class="col-2"><h5>Useful Links</h5></div>
+        <div class="col-2"><h5>Contact</h5></div>
+        <div class="col-2"><h5>More details</h5></div>
+</div>
+
+
+
+
+

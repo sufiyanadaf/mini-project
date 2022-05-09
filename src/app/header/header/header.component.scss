@@ -1,0 +1,46 @@
+#first{
+    background-color: pink;
+    height: 45px;
+    text-align: center;
+    
+}
+.col-md-1{
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    
+}
+.col-md-1:hover{
+    background-color: rgb(121, 247, 121);
+    cursor: pointer;
+}
+.col-3{
+    width : 200px;
+    margin-top: 30px;
+
+}
+.raw-2{
+    font-size: 23px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.col-2{
+    color: white;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#second{
+    background-color: black;
+    margin-top: 10px;
+   
+}
+

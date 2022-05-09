@@ -1,0 +1,20 @@
+<div style="float: left;">
+ <label style="font-weight: bold;">ENTER  NAME: </label> &nbsp;
+ <input type="text" [(ngModel)]="name" placeholder="Enter your name">&nbsp;&nbsp;
+ <button [(ngModel)]="name"> Click me </button>
+</div>
+<div id="element">
+ <h5>{{name}}</h5>
+</div>
+
+<div style="margin-top: 150px;">
+    <input type="text" [(ngModel)]="iceCream" placeholder="Enter ice cream menu"> &nbsp; &nbsp;
+    <button (click)="myFunction()"> Add menu </button> 
+  <br>
+  <br>
+    <div  id="box">
+    <div *ngFor="let item of array; let i=index">
+    <h6> &nbsp;&nbsp;{{i+1}}&nbsp; &nbsp; {{item}}</h6>
+    </div>
+    </div>
+</div>
